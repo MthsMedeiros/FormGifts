@@ -5,11 +5,12 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Instale dependências do sistema necessárias
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libssl-dev \
     libffi-dev \
     libmysqlclient-dev \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 # Copie o arquivo de requisitos para o contêiner
