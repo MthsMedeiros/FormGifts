@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834ee6cc-6cf4-4cb6-b4f6-d73107fb51d0" name="Changes" comment="railway" />
+    <list default="true" id="834ee6cc-6cf4-4cb6-b4f6-d73107fb51d0" name="Changes" comment="req" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716441606232</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="delete req">
+      <option name="closed" value="true" />
+      <created>1716441964995</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716441964995</updated>
+    </task>
+    <task id="LOCAL-00017" summary="req">
+      <option name="closed" value="true" />
+      <created>1716442054730</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716442054730</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,11 +233,12 @@
     <MESSAGE value="Procfile" />
     <MESSAGE value="dockerfile" />
     <MESSAGE value="Alteração do nome Dockerfile" />
-    <MESSAGE value="req" />
     <MESSAGE value="config de banco" />
     <MESSAGE value="Dockerfile" />
     <MESSAGE value="Dockerfile delete" />
     <MESSAGE value="railway" />
-    <option name="LAST_COMMIT_MESSAGE" value="railway" />
+    <MESSAGE value="delete req" />
+    <MESSAGE value="req" />
+    <option name="LAST_COMMIT_MESSAGE" value="req" />
   </component>
 </project>
