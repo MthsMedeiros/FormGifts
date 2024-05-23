@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834ee6cc-6cf4-4cb6-b4f6-d73107fb51d0" name="Changes" comment="Procfile e requirements">
+    <list default="true" id="834ee6cc-6cf4-4cb6-b4f6-d73107fb51d0" name="Changes" comment="Procfile">
+      <change afterPath="$PROJECT_DIR$/Doockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2gqmhjx0CEJjux7xP3UZbQdb0MH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -104,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716434362021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Procfile">
+      <option name="closed" value="true" />
+      <created>1716435353027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716435353027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="Procfile e requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile e requirements" />
+    <MESSAGE value="Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Procfile" />
   </component>
 </project>
