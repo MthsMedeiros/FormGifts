@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Atualize pip e instale dependências do sistema necessárias com depuração
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN sudo apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libssl-dev \
     libffi-dev \
