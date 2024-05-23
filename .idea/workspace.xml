@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834ee6cc-6cf4-4cb6-b4f6-d73107fb51d0" name="Changes" comment="Procfile">
-      <change afterPath="$PROJECT_DIR$/Doockerfile" afterDir="false" />
+    <list default="true" id="834ee6cc-6cf4-4cb6-b4f6-d73107fb51d0" name="Changes" comment="req">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +115,40 @@
       <option name="project" value="LOCAL" />
       <updated>1716435353027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dockerfile">
+      <option name="closed" value="true" />
+      <created>1716436570090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716436570090</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Alteração do nome Dockerfile">
+      <option name="closed" value="true" />
+      <created>1716436618324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716436618324</updated>
+    </task>
+    <task id="LOCAL-00006" summary="req">
+      <option name="closed" value="true" />
+      <created>1716436749008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716436749008</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="Procfile e requirements" />
     <MESSAGE value="Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile" />
+    <MESSAGE value="dockerfile" />
+    <MESSAGE value="Alteração do nome Dockerfile" />
+    <MESSAGE value="req" />
+    <option name="LAST_COMMIT_MESSAGE" value="req" />
   </component>
 </project>

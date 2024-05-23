@@ -4,6 +4,14 @@ FROM python:3.9-slim
 # Defina o diretório de trabalho no contêiner
 WORKDIR /app
 
+# Instale dependências do sistema necessárias
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libssl-dev \
+    libffi-dev \
+    libmysqlclient-dev \
+    && rm -rf /var/lib/apt/lists/*
+
 # Copie o arquivo de requisitos para o contêiner
 COPY requirements.txt requirements.txt
 
