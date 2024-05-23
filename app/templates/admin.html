@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block admin_button %}
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('main.admin') }}">Admin</a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1>Admin - Presentes</h1>
+    <a class="btn btn-primary" href="{{ url_for('main.create') }}">Criar Novo Presente</a>
+</div>
+<div class="row">
+    {% for present in presents %}
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{{ url_for('static', filename='uploads/' ~ present[3]) }}" class="card-img-top" alt="{{ present[1] }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ present[1] }}</h5>
+                <p class="card-text">{{ present[2] }}</p>
+                <p class="card-text"><strong>Valor:</strong> R$ {{ present[4] }}</p>
+                <div class="d-flex justify-content-between">
+                    <a href="{{ url_for('main.edit', present_id=present[0]) }}" class="btn btn-warning">Editar</a>
+                    <form action="{{ url_for('main.delete', present_id=present[0]) }}" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Excluir</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

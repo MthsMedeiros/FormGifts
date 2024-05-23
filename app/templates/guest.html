@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Presentes</h1>
+<div class="row">
+    {% for present in presents %}
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{{ url_for('static', filename='uploads/' ~ present[3]) }}" class="card-img-top" alt="{{ present[1] }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ present[1] }}</h5>
+                <p class="card-text">{{ present[2] }}</p>
+                <p class="card-text"><strong>Valor:</strong> R$ {{ present[4] }}</p>
+                <a href="{{ present[5] }}" class="btn btn-success" target="_blank">Comprar Presente</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
